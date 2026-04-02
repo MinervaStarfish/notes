@@ -142,5 +142,12 @@ Violet's Tale
 
 
 
+Manuela Villegas Urrego
+3137461265
+manuela.villegas707@gmail.com
 
+
+David Santiago Epia Vargas
+3186557334
+davidsepiav@gmail.com
 
