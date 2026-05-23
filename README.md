@@ -1,3 +1,5 @@
+revisar
+
 Fecha: Viernes 3 - Lunes 6, Julio            
 4 dias, 3 noches
 
