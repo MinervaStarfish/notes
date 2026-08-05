@@ -1,0 +1,221 @@
+Entrega 1 - DCU
+Diseño de una aplicación móvil por medio de una metodología centrada en el usuario.
+
+1. Escoger el tema sobre el cual se realizará la aplicación móvil híbrida. Tenga presente solucionar una necesidad puntual de un usuario en un contexto de uso específico.
+
+2. Realizar el analisis del usuario, teniendo como referencia las secciones de la siguiente presentación.
+
+3. Crear dos usuarios personas, que pertenezcan al tema seleccionado, siguiendo la guía.
+
+4. Crear el diagrama de flujo, mapa de navegación, wireframe manual (Fotos hojas) y digital de la aplicación (se crea en Figma)
+
+
+Requisitos
+Proponer y realizar la solución usando las herramientas explicadas en clase.
+La aplicación diseñada no debe necesitar internet, no requiere conexión a base de datos.
+Si la aplicación requiere registro o login, esto se debe simular usando localstorage.
+Organizar las evidencias en dispositivas para realizar presentación en clase.
+La aplicación debe tener nombre y logo.
+El wireframe debe ser en escala de grises, no se debe usar color.
+El número de vistas (pantallas) depende de la solución que se esta diseñando y parte de una necesidad especifica, se recomienda tener mínimo 5 vistas. Es posible tener alguna opción deshabilitada o que no se implemente, pero todo debe quedar consolidado y explicado en el diseño.
+
+Criterios de evaluación
+(20%) Diapositivas y exposición del proyecto
+(20%) Creación de wireframe manual (fotos diseño)
+(20%) Diagrama de flujo, navegación entre las vistas
+(20%) Creación user persona (2 usuarios)
+(10%) Creación de wireframe digital, enlace Figma
+(10%) Puntualidad en la entrega del ejercicio
+PetCare Local
+El problema: Dueños de mascotas que olvidan las horas de los medicamentos, vacunas o comidas de sus animales.
+Por qué funciona sin internet: Todos los datos del animal y los recordatorios se guardan en el teléfono. 
+No necesita conectarse a una red para avisar al usuario.
+Las 5 pantallas obligatorias: 
+1. Login/Registro (simulado).
+2. Inicio (Lista de mascotas registradas).
+3. Perfil de la mascota (Datos, foto local, edad).
+4. Historial/Calendario de eventos (Comida, medicina, baño).
+5. Formulario de Registro de Evento / Recordatorio (selecciona el tipo de evento: comida, medicina, vacuna; introduce la hora/fecha y activa la alerta).
+ANALISIS DEL USUARIO
+
+1. perfil demografico (edad, genero, nivel socioeconomico, estado civil).
+Edad: 22 a 40 años (Jóvenes profesionales, estudiantes universitarios y adultos independientes).
+Género: Todos los géneros (Indiferente).
+Nivel Socioeconómico: Medio-bajo a Medio-alto. Personas con acceso a smartphones de cualquier gama.
+Estado Civil: Principalmente solteros, parejas jóvenes sin hijos (donde la mascota es el centro del hogar) o personas que viven solas.
+
+2. perfil geografico (poblacion, ubicacion, virtualidad).
+Población: Zonas urbanas y suburbanas de ciudades medianas a grandes.
+Ubicación: Ciudades con alta densidad de apartamentos, donde las mascotas dependen 100% de las rutinas humanas para salir, comer o recibir atención.
+Virtualidad: Usuarios con conectividad intermitente en su día a día (personas que viajan en metro, trabajan en sótanos o zonas con mala señal, o que simplemente prefieren no gastar datos móviles en segundo plano).
+
+3. perfil psicografico (clase social, personalidad, habitos, estilo de vida, creencias, moda, preocupaciones)
+Clase Social: Media y trabajadora.
+Personalidad: Responsables, empáticos, organizados pero frecuentemente abrumados por la rutina laboral o académica.
+Hábitos y Estilo de Vida: Tienen agendas ocupadas, trabajan o estudian fuera de casa muchas horas. Consideran a sus mascotas como miembros de la familia ("perrhijos" o "gathijos"). Consumen contenido sobre bienestar animal.
+Creencias/Moda: Tendencia fuerte hacia el bienestar animal, adopción responsable y la "humanización" de las mascotas.
+Preocupaciones: El bienestar físico de su animal. Sienten culpa por pasar mucho tiempo fuera de casa y les aterra que la mascota sufra una recaída médica por olvidar una dosis de medicamento.
+
+4. Dificultad a afrontar
+Falta de red confiable: Las aplicaciones basadas en la nube fallan o no envían notificaciones si el usuario está en el transporte subterráneo, en el trabajo sin Wi-Fi o si se quedó sin datos.
+Saturación mental: Recordar tratamientos médicos complejos (ej. dar una pastilla cada 8 horas por 5 días) en medio de un día de trabajo estresante.
+Multi-mascota: Confundir las dosis o las horas cuando se tienen dos o más animales con necesidades diferentes.
+
+5. Pregunta orientadora
+"¿Cómo podemos facilitar el seguimiento estricto de las rutinas de salud y cuidado de las mascotas para dueños ocupados, garantizando un funcionamiento 100% confiable y privado sin depender de una conexión a internet o bases de datos externas?"
+USER PERSONA 1: EL ORGANIZADOR MULTI-MASCOTA OCUPADO
+Name:
+Carlos Mendoza
+
+Gender:
+Masculino
+
+Age:
+28 años
+
+Lives in ... with ... Likes ...
+Vive en un apartamento céntrico en Bogotá con sus dos gatos (Milo y Luna). Le gusta la fotografía, salir a correr los fines de semana y probar herramientas tecnológicas que simplifiquen su rutina diaria.
+
+Education and experience:
+Es profesional en Marketing Digital. Tiene un manejo avanzado de teléfonos móviles y herramientas de productividad digital como Notion y Trello, pero se cansa rápido de las aplicaciones móviles que tienen interfaces complejas, pantallas saturadas o que están llenas de anuncios molestos.
+
+Role and responsibilities:
+Trabaja como coordinador de campañas publicitarias en una agencia digital. En su hogar, él es el único responsable absoluto del bienestar integral de sus mascotas, lo que incluye encargarse de la alimentación diaria, las citas de vacunación y la limpieza de los dos felinos.
+
+Technical skills:
+Tiene un nivel tecnológico alto. Maneja con total fluidez entornos móviles tanto Android como iOS, y comprende a la perfección cómo configurar y sacar provecho de los widgets y de las notificaciones locales en su celular.
+
+Subject domain skills and knowledge:
+Posee un conocimiento básico a intermedio sobre el cuidado de gatos. Sabe perfectamente qué alimentos son dañinos para su salud y cuándo les corresponden sus vacunas anuales, pero le cuesta mucho llevar el control exacto de las fechas de desparasitación de ambos animales de forma simultánea.
+
+Motivation and desires:
+Busca automatizar por completo los recordatorios de sus gatos para liberar espacio mental y reducir el estrés diario. Desea una aplicación limpia, de carga rápida y que respete su privacidad, evitando que le pida crear cuentas con contraseñas o que le envíe correos electrónicos no deseados.
+
+Goals and expectations:
+Su meta principal es mantener al día el calendario de cuidado de Milo y Luna sin equivocarse de mascota al registrar las tareas. Espera que la aplicación le envíe alertas sonoras y visuales directas al teléfono de forma infalible, incluso si se encuentra sin señal de datos móviles en la oficina.
+
+Obstacles to their success:
+Su trabajo diario le exige asistir a reuniones muy largas donde suele perder la noción del tiempo por completo. Además, su oficina está ubicada en un sótano con nula cobertura de red celular, lo que provoca que las aplicaciones basadas en la nube no se sincronicen ni le manden notificaciones a tiempo.
+Unique assets:
+Cuenta con una rutina diaria muy estructurada y estable durante las mañanas y las noches. También tiene guardadas localmente en la memoria de su teléfono las fotos de sus mascotas, listas para ser subidas y personalizadas en la aplicación sin consumir internet.
+USUARIO PERSONA 2: LA CUIDADORA ESTRICTA CON REQUERIMIENTOS MÉDICOS
+Name:
+Valentina Gómez
+
+Gender:
+Femenino
+
+Age:
+34 años
+
+Lives in ... with ... Likes ...
+Vive en una zona de casas suburbanas con su perro anciano (Toby, un Schnauzer de 12 años). Le gusta la jardinería, leer novelas de misterio y participar activamente en comunidades locales dedicadas a la adopción y al rescate de animales desamparados.
+
+Education and experience:
+Es graduada en Contaduría Pública y trabaja de forma independiente. Está muy acostumbrada a trabajar diariamente con tablas de datos complejas y software financiero, por lo que valora enormemente el orden visual, la precisión en la información y los registros históricos detallados.
+
+Role and responsibilities:
+Trabaja principalmente desde su hogar y realiza visitas periódicas a clientes corporativos. Es la cuidadora principal y exclusiva de Toby, quien padece una enfermedad cardíaca crónica avanzada y requiere dosis exactas de medicamentos vitales tres veces al día.
+
+Technical skills:
+Tiene un nivel tecnológico medio. Utiliza herramientas de oficina esenciales y aplicaciones cotidianas como WhatsApp y banca móvil, pero no le interesan las funciones tecnológicas avanzadas o experimentales; busca utilidad directa, flujos rápidos y botones grandes que sean fáciles de presionar.
+
+Subject domain skills and knowledge:
+Posee un conocimiento avanzado en cuidados veterinarios geriátricos debido a la condición médica de su perro. Sabe interpretar recetas médicas complejas, conoce los efectos secundarios de los fármacos y entiende la importancia crítica de no retrasarse ni un solo minuto con las pastillas del corazón de Toby.
+
+Motivation and desires:
+Necesita mitigar el estrés constante y la ansiedad severa que le produce la sola idea de olvidar una dosis médica de su mascota. Quiere un registro histórico que funcione de manera offline donde pueda revisar rápidamente si ya le dio la pastilla de la mañana o si la tarea sigue pendiente en el día.
+
+Goals and expectations:
+Su objetivo es poder configurar alarmas recurrentes cada 8 horas de forma muy rápida y sin complicaciones técnicas. Espera que la aplicación sea 100% confiable en el sistema de alertas, que no consuma la batería de su celular con procesos pesados en segundo plano y que guarde toda la información en la memoria local del teléfono de forma segura.
+
+Obstacles to their success:
+Sufre frecuentemente de fatiga mental y agotamiento debido a la alta carga de trabajo contable que maneja. A menudo debe viajar en transporte público subterráneo para visitar a sus clientes, quedando completamente incomunicada de internet justo en las horas exactas en las que su perro necesita el medicamento.
+
+Unique assets:
+Es una persona sumamente disciplinada con los horarios establecidos cuando cuenta con el apoyo de alarmas visuales o recordatorios fijos. Además, tiene a la mano todo el historial médico en papel de su perro, lo que le facilita vaciar los datos manualmente en la aplicación una sola vez.
+DIAGRAMA DE FLUJO
+Bloque 1: Inicio y Validación de Sesión (Pantalla 1)
+Inicio: El usuario abre la aplicación móvil en su dispositivo.
+Decisión Local: ¿Existe un usuario registrado en la memoria del teléfono (localStorage)?
+Sí: La aplicación lee los datos del teléfono y redirige automáticamente a la Pantalla 2: Inicio (Lista de Mascotas).
+No: La aplicación muestra la Pantalla 1: Login / Registro.
+Acción de Registro: El usuario introduce un nombre de usuario y contraseña simulados, y presiona "Registrarse".
+Acción del Sistema: La aplicación guarda las credenciales localmente usando localStorage.setItem() y redirige a la Pantalla 2.
+Bloque 2: Gestión de Mascotas (Pantalla 2 y Pantalla 3)
+Visualización (Pantalla 2): El usuario ve la lista de sus mascotas guardadas en el teléfono.
+Decisión de Flujo: ¿El usuario quiere ver una mascota existente o registrar una nueva?
+Caso A (Nueva Mascota): El usuario presiona el botón "Añadir Mascota". Se abre un formulario flotante o vista secundaria, introduce los datos (Nombre, Edad, Especie), se guarda en la memoria local y se actualiza la lista en la Pantalla 2.
+Caso B (Mascota Existente): El usuario selecciona la foto o nombre de una mascota de la lista.
+Redirección: El sistema carga los datos locales de ese animal específico y abre la Pantalla 3: Perfil de la Mascota.
+Bloque 3: Visualización del Calendario (Pantalla 3 y Pantalla 4)
+Visualización (Pantalla 3): El usuario revisa la ficha técnica de su mascota (Edad, Foto local).
+Acción del Usuario: El usuario presiona el botón "Ver Agenda / Historial".
+Redirección: El sistema abre la Pantalla 4: Historial / Calendario de Eventos.
+Visualización (Pantalla 4): El usuario visualiza los días del mes y una lista inferior con las tareas programadas para el día seleccionado (comidas, medicinas, baños).
+Bloque 4: Creación de Recordatorios Offline (Pantalla 4 y Pantalla 5)
+Acción del Usuario: Dentro del calendario (Pantalla 4), el usuario presiona el botón "Nuevo Recordatorio" (icono de más +).
+Redirección: El sistema abre la Pantalla 5: Formulario de Registro de Evento.
+Acción de Captura (Pantalla 5): El usuario selecciona el tipo de evento (Medicina, Comida, Vacuna, Baño), escribe el nombre de la tarea (ej. "Pastilla Corazón") y selecciona la hora/fecha.
+Acción de Guardado: El usuario presiona "Guardar Recordatorio".
+Acción del Sistema: La aplicación ejecuta un guardado local en el arreglo de la mascota, programa una alarma nativa del sistema operativo móvil (que no requiere internet) y devuelve al usuario de forma automática a la Pantalla 4: Historial / Calendario, donde ahora se muestra el nuevo evento en la lista.
+
+
+MAPA DE NAVEGACIÓN
+Nivel 0: Acceso y Autenticación (Pantalla de Entrada)
+Pantalla 1: Login / Registro (Simulado con LocalStorage)
+Descripción: Es el punto de control de acceso a la aplicación. Si el usuario no tiene datos guardados en el teléfono, ve este formulario para ingresar un nombre de usuario y contraseña simulados.
+Enlaces de salida: Al presionar "Ingresar" o "Registrarse", el sistema valida de forma interna y redirige directamente al Nivel 1 (Pantalla de Inicio). No tiene menús de navegación superiores ni inferiores para evitar que el usuario se salte el acceso.
+Nivel 1: Pantalla Principal (Eje Central de la Aplicación)
+Pantalla 2: Inicio (Lista de Mascotas Registradas)
+Descripción: Es la pantalla raíz o "Home" de la aplicación a la que llega el usuario una vez autenticado. Muestra de forma central un listado con las tarjetas visuales de todas las mascotas guardadas localmente en el dispositivo.
+Elementos de navegación:
+Botón flotante o superior "Añadir Mascota" (abre un formulario modal interno en la misma vista).
+Tarjetas de mascotas seleccionables que actúan como enlaces directos hacia el Nivel 2.
+Botón de "Cerrar Sesión" que borra temporalmente el estado en localStorage y regresa al Nivel 0.
+Nivel 2: Detalle de Mascota (Sección de Consulta)
+Pantalla 3: Perfil de la Mascota
+Descripción: Vista enfocada en la información específica del animal que el usuario seleccionó en la pantalla anterior. Muestra la ficha técnica con su foto local, nombre, especie, edad y notas generales de cuidados.
+Elementos de navegación:
+Botón de retorno "Volver" (regresa al Nivel 1: Pantalla 2).
+Botón destacado de acción principal: "Ver Agenda / Historial" (conecta directamente con el Nivel 3: Pantalla 4).
+Nivel 3: Gestión de Tareas y Alertas (Sección Operativa)
+Pantalla 4: Historial / Calendario de Eventos
+Descripción: Interfaz que despliega un calendario mensual o semanal en la parte superior y un listado cronológico en la parte inferior con las tareas programadas para el día seleccionado (comidas, medicinas, vacunas, baños).
+Elementos de navegación:
+Botón de retorno "Volver" (regresa al Nivel 2: Pantalla 3).
+Botón operativo principal "Añadir Recordatorio" (icono de más +), que redirige al usuario hacia el Nivel 4 (Pantalla 5).
+Nivel 4: Configuración de Alertas Offline (Formulario Final)
+Pantalla 5: Formulario de Registro de Evento
+Descripción: La pantalla más profunda de la arquitectura. Contiene los campos necesarios para capturar los datos de una nueva alarma: selector de categoría (Medicina, Comida, Vacuna, Baño), campo de texto para el nombre, y selectores de fecha y hora.
+Elementos de navegación:
+Botón "Cancelar" (regresa al Nivel 3: Pantalla 4 sin guardar cambios).
+Botón "Guardar Recordatorio" (guarda el registro en el almacenamiento interno del teléfono, activa la alerta local del sistema y devuelve automáticamente al usuario al Nivel 3: Pantalla 4 para mostrar el nuevo evento reflejado).
+ESTRUCTURA VISUAL DE LOS 5 WIREFRAMES (Para Figma o Papel)
+Pantalla 1: Login / Registro (Simulado)
+Encabezado: En la parte superior, dibuja un círculo gris con una "X" para simular el logotipo de la aplicación. Debajo, coloca un texto en fuente grande que diga "PetCare Local".
+Campos de Entrada (Inputs): Dibuja dos rectángulos con bordes grises delgados. Adentro de uno escribe en gris claro "Nombre de usuario" y en el otro "Contraseña".
+Botón de Acción: Un rectángulo con relleno gris oscuro centrado abajo que contenga la palabra "Ingresar" en letras blancas.
+Texto secundario: Un enlace simple abajo en gris claro que diga ¿No tienes cuenta? Regístrate aquí.
+Pantalla 2: Inicio (Lista de Mascotas)
+Barra Superior (Navbar): Un rectángulo delgado arriba con el título "Mis Mascotas" a la izquierda y un icono gris de cerrar sesión a la derecha.
+Listado (Tarjetas): Diseña dos o tres bloques rectangulares horizontales que ocupen el ancho de la pantalla. Cada bloque debe contener:
+Un círculo a la izquierda con una línea diagonal cruzada (marcador de posición para la foto local de la mascota).
+Líneas horizontales grises a la derecha simulando el nombre del animal (ej: "Milo" o "Luna").
+Botón Flotante: En la esquina inferior derecha, dibuja un círculo gris oscuro firmemente marcado con un símbolo de más + para la acción de "Añadir Mascota".
+Pantalla 3: Perfil de la Mascota
+Barra Superior: Botón de flecha izquierda <- que apunta a la Pantalla 2 y el nombre de la mascota seleccionada como título centrado.
+Zona de Imagen: Un cuadrado grande en la mitad superior de la pantalla con una "X" gigante de esquina a esquina, que representa el contenedor donde se cargará la foto desde el almacenamiento del dispositivo.
+Bloque de Datos: Tres rectángulos horizontales delgados fijos con etiquetas claras en texto gris oscuro: "Especie: Gato", "Edad: 3 años", y "Notas: Alérgico al pollo".
+Botón Principal: Un rectángulo gris oscuro grande al fondo de la pantalla que abarque todo el ancho con el texto: "Ver Agenda / Historial".
+Pantalla 4: Historial / Calendario de Eventos
+Componente de Calendario: En la mitad superior de la pantalla, dibuja una cuadrícula limpia de 7 columnas por 5 filas (simulando los días del mes). El día actual debe estar envuelto en un círculo gris suave para resaltarlo.
+Sección de Tareas Diarias: En la mitad inferior, incluye un título que diga "Tareas de hoy". Abajo, pon una lista de rectángulos pequeños (las tareas) con texto plano como "08:00 AM - Pastilla Corazón" o "02:00 PM - Almuerzo".
+Acceso Rápido: Un botón circular con el signo + ubicado en la esquina inferior derecha para abrir el formulario de creación.
+Pantalla 5: Formulario de Registro de Evento (Tu Pantalla Añadida)
+Barra Superior: Título plano que dicte "Nuevo Recordatorio" y un botón de "X" a la izquierda para cancelar la acción.
+Selectores de Categoría: Cuatro cuadrados pequeños alineados de forma horizontal, cada uno con una etiqueta simple abajo: "Medicina", "Comida", "Vacuna", "Baño".
+Campos de Texto y Tiempo:
+Un rectángulo alargado para escribir el nombre de la tarea.
+Dos rectángulos medianos seguidos para configurar la "Fecha" y la "Hora".
+Botón de Guardado: Un rectángulo gris oscuro al fondo de la vista que diga "Guardar Recordatorio", el cual guardará el elemento en el localStorage del teléfono.
